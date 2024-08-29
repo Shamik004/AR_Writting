@@ -11,7 +11,7 @@ import time
 app = Flask(__name__)
 
 # Initialize Firebase Admin
-cred = credentials.Certificate(r"E:\flask project\ar-writing-gesture-firebase-adminsdk-x8jl3-0faeb356bb.json")
+cred = credentials.Certificate(r"ar-writing-gesture-firebase-adminsdk-x8jl3-0faeb356bb.json")
 firebase_admin.initialize_app(cred, {
     'storageBucket': 'ar-writing-gesture.appspot.com'
 })
